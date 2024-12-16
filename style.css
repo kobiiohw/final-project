@@ -1,0 +1,89 @@
+.container{
+    display: grid;  
+    grid-template-rows: [head]10% [options1]42.5% [options2]42.5% [foot]5%;
+    background-image: URL("REP-DOCS-7-INV.JPG");
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+.heading{
+    grid-row: 1 / 2;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+
+}
+.main-container{
+    grid-row: 2 / 4;
+}
+.title{
+    font-size: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+.main-title{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+.homepage:link, .homepage:visited {
+  color: white;
+  padding: 40px 60px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.homepage:hover, .homepage:active {
+  color: black;
+}
+figcaption{
+    font-size: 50px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.project-list{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+}
+.projects{
+
+}
+#school{
+    grid-row: 2 / 3;
+
+
+}
+#art{
+    grid-row: 3 / 4;
+
+}
+.private{
+    grid-row: 3 / 4;
+    grid-column: span 2;
+}
+.figcontent{
+      padding: 40px 60px;
+      margin: 80px; 
+}
+.foot{
+    grid-row: 4 / 5;
+    background-color: rgb(255, 12, 12);
+}
+li{
+    color: white;
+    list-style-type: none;
+}
+a{
+    color: white;
+    font-weight: bold;
+    font-size: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover, a:active {
+    color: red;
+    font-weight: bolder;
+    font-size: x-large;
+  }
